@@ -1,3 +1,4 @@
+## 关于`std::string`的解释
 你提到的代码中，`mergeAlternately` 函数合并了两个字符串 `"Hellodacjsanckjankjnakccasnkjankajdcnkjadnckadnckadncdadaa"` 和 `"Boyadssa"`，结果字符串的长度超过了 40 个字节。你可能会疑惑：为什么 `std::string` 可以表示这么长的字符串，即使它的对象大小（通过 `sizeof(std::string)` 打印）只有 24 或 32 字节？
 
 ### 原因分析
